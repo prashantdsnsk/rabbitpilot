@@ -12,19 +12,20 @@ $exchange = 'pdstest';
 $queue = 'test';
 
 
-/* $host = "35.154.23.54";
+$host = "35.154.23.54";
 $port = "9090";
 $user = "guest";
 $pass = "guest";
 $vhost = "guest";
- *///echo "<br> after connection";
+//echo "<br> after connection";
 
+/* 
 $host = "dinosaur.rmq.cloudamqp.com";
 $port = 5672;
 $user = "gdeoaaqt";
 $pass = "XOSLMkQZQ7glbZONA8R1UNf5B9U0zfE-";
 $vhost = "gdeoaaqt";
-
+ */
 
 $connection = new AMQPStreamConnection($host, $port, $user, $pass, $vhost);
 
