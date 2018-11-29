@@ -3,9 +3,7 @@
 
 //require_once('vendor/autoload.php');
 //require dirname(__DIR__).'/vendor/autoload.php';
-echo "path ".require_once __DIR__ ;
-
-require_once __DIR__ . 'vendor/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
 use PhpAmqpLib\Connection\AMQPStreamConnection;
 use PhpAmqpLib\Message\AMQPMessage;
